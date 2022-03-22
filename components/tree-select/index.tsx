@@ -8,7 +8,7 @@ import RcTreeSelect, {
 } from '@sweet7/rc-tree-select';
 import classNames from 'classnames';
 import omit from 'rc-util/lib/omit';
-import type { BaseOptionType, DefaultOptionType } from 'rc-tree-select/lib/TreeSelect';
+import type { BaseOptionType, DefaultOptionType } from '@sweet7/rc-tree-select/lib/TreeSelect';
 import type { BaseSelectRef } from '@sweet7/rc-select';
 import { useContext } from 'react';
 import { ConfigContext } from '../config-provider';
