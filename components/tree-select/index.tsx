@@ -5,11 +5,11 @@ import RcTreeSelect, {
   SHOW_PARENT,
   SHOW_CHILD,
   TreeSelectProps as RcTreeSelectProps,
-} from 'rc-tree-select';
+} from '@sweet7/rc-tree-select';
 import classNames from 'classnames';
 import omit from 'rc-util/lib/omit';
 import type { BaseOptionType, DefaultOptionType } from 'rc-tree-select/lib/TreeSelect';
-import type { BaseSelectRef } from 'rc-select';
+import type { BaseSelectRef } from '@sweet7/rc-select';
 import { useContext } from 'react';
 import { ConfigContext } from '../config-provider';
 import devWarning from '../_util/devWarning';
