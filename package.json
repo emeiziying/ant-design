@@ -111,6 +111,10 @@
     "IE 11",
     "not IE 10"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "dependencies": {
     "@ant-design/colors": "^6.0.0",
     "@ant-design/icons": "^4.7.0",
